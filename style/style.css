@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+    --fonte-principal: "Roboto", sans-serif;
+    --fonte-secundaria: "Quicksand", sans-serif;
+}
+
+
+body{
+    font-family: var(--fonte-principal); 
+    color: #725C5C;
+    ;
+}
+
+.aside__container { 
+    width: 220px;
+    height: 100vh;
+    display: block;
+    border: 1px solid #CCCCCC;
+    position: fixed;
+}
+
+.aside__topo { 
+    height: 68px;
+    width: 220px;
+    background-color: #FFB354;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo__aside{
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 700;
+
+}
+.logo{
+    width: 100%;
+    height: auto;
+}
+.menu__container ul {
+    list-style: none;
+    padding: 0;
+    font-family: var(--fonte-secundaria);
+  }
+  
+  .menu_container .menu_item {
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc; /* Adiciona uma linha separando os itens */
+  }
+  
+  .menu_container .menu_item:last-child {
+    border-bottom: none; /* Remove a linha separando o último item */
+  }
+
+  .cabecalho {
+    width: 1146px;
+    height: 68px;
+    background-color: #ff5500;
+}
